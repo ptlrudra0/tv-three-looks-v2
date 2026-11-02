@@ -392,7 +392,7 @@ body { font-family: 'Inter', system-ui, sans-serif; background: #000; color: #ff
 .dockband .fc.on { transform: translateY(-6px) scale(1.07); z-index: 3; }
 .dockband .fc img { width: 96px; height: 96px; border-radius: 24px; flex: none; }
 .namepill { top: 236px; }
-.gridpanel { bottom: 38px; }
+.gridpanel { bottom: 38px; left: 120px; right: 120px; }
 .idle { position: absolute; inset: 0; z-index: 20; background: #000; overflow: hidden; cursor: pointer; animation: fadein .6s ease both; }
 .idle-layer { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; animation: idlezoom 25s ease-out both, bdfade 1s ease both; filter: brightness(.8) saturate(1.1); }
 .idle-cut { animation: idlezoom 25s ease-out both, bdfade 1s ease both; }
